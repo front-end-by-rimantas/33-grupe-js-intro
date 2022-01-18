@@ -58,3 +58,46 @@ const sakinys = pirmasZodis + ' ' + antrasZodis + '.';
 console.log(1, pirmasZodis);
 console.log(2, antrasZodis);
 console.log(3, sakinys);
+
+const kabutes1 = "It's my name";
+console.log(kabutes1);
+
+const kabutes2 = 'Tai vadinasi "Cepelinas" ar kazkaip panasiai';
+console.log(kabutes2);
+
+const kabutes12 = 'Cia yra vienguba(\'), o cia yra dvyguba (") kabutes.';
+const kabutes21 = "Cia yra vienguba('), o cia yra dvyguba (\") kabutes.";
+console.log(kabutes12);
+console.log(kabutes21);
+
+const kabutes120 = 'Cia yra vienguba(\'), o cia yra dvyguba (\") kabutes.';
+const kabutes210 = "Cia yra vienguba(\'), o cia yra dvyguba (\") kabutes.";
+console.log(kabutes12);
+console.log(kabutes21);
+
+console.log('---------------');
+// Pagrindinis aktorius yra Chuck Norris filme "Volkeris. Teksaso reidzeris".
+const aktoriausVardas = 'Chuck';
+const aktoriausPavarde = 'Norris';
+const filmoPavadinimas = 'Volkeris. Teksaso reidzeris';
+
+const filmas1 = 'Pagrindinis aktorius yra ' + aktoriausVardas + ' ' + aktoriausPavarde + ' filme "' + filmoPavadinimas + '".';
+console.log(1, filmas1);
+
+const filmas2 = "Pagrindinis aktorius yra " + aktoriausVardas + " " + aktoriausPavarde + " filme \"" + filmoPavadinimas + "\".";
+console.log(2, filmas2);
+
+const filmas3 = "Pagrindinis aktorius yra " + aktoriausVardas + " " + aktoriausPavarde + ' filme "' + filmoPavadinimas + '".';
+console.log(3, filmas3);
+
+const filmas4 = `Pagrindinis aktorius yra ${aktoriausVardas} ${aktoriausPavarde} filme "${filmoPavadinimas}".`;
+console.log(4, filmas4);
+
+console.log('-------------');
+// Viengubos ('), dvygubos (") ir backtick'as (`).
+const kabuciuCombo1 = 'Viengubos (\'), dvygubos (") ir backtick\'as (`).';
+const kabuciuCombo2 = "Viengubos ('), dvygubos (\") ir backtick'as (`).";
+const kabuciuCombo3 = `Viengubos ('), dvygubos (") ir backtick'as (\`).`;
+console.log(kabuciuCombo1);
+console.log(kabuciuCombo2);
+console.log(kabuciuCombo3);
