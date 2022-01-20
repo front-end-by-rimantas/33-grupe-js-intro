@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cw": "nodemon ./codewars/getPlanetName.js",
+    "dev7": "nodemon ./js/07-function.js",
     "dev6": "nodemon ./js/06-operators.js",
     "dev5": "nodemon ./js/05-for.js",
     "dev4": "nodemon ./js/04-switch.js",
