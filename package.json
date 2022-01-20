@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./js/05-for.js",
-    "dev1": "nodemon ./js/01-variables.js",
-    "dev2": "nodemon ./js/02-array.js",
-    "dev3": "nodemon ./js/03-if.js",
-    "dev4": "nodemon ./js/04-switch.js",
+    "dev6": "nodemon ./js/06-operators.js",
     "dev5": "nodemon ./js/05-for.js",
+    "dev4": "nodemon ./js/04-switch.js",
+    "dev3": "nodemon ./js/03-if.js",
+    "dev2": "nodemon ./js/02-array.js",
+    "dev1": "nodemon ./js/01-variables.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
