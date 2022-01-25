@@ -7,6 +7,10 @@ function x(a) {
 }
 */
 
+function isRealNumber(num) {
+    return typeof num === 'number' && isFinite(num);
+}
+
 function max(list) {
     if (!Array.isArray(list)) {
         return 'ERROR: privalo buti masyvas';
@@ -19,9 +23,7 @@ function max(list) {
 
     for (let i = 0; i < list.length; i++) {
         const n = list[i];
-        if (typeof n === 'number'
-            && isFinite(n)
-            && n > biggest) {
+        if (isRealNumber(n) && n > biggest) {
             biggest = n;
         }
     }
