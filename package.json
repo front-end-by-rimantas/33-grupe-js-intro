@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cw": "nodemon ./codewars/getPlanetName.js",
+    "dev13": "nodemon ./js/13-array-object.js",
     "dev12": "nodemon ./js/12-ternary.js",
     "dev11": "nodemon ./js/11-objects.js",
     "dev10": "nodemon ./js/10-max.js",
