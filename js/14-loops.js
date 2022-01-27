@@ -76,9 +76,6 @@ const names = ['Jonas', 'Ona', 'Rasa', 'Petras', 'Maryte', 'Ciubaka'];
 // pasilikti tik vardu pirmas raides, kur vardu ilgis yra maziau 6 simboliu
 const modifiedNames = names
     .filter(name => name.length < 6)
-    .filter(name => name.length < 6)
-    .filter(name => name.length < 6)
-    .filter(name => name.length < 6)
     .map(name => name[0]);
 console.log(modifiedNames);
 
@@ -90,5 +87,3 @@ console.log(modifiedNames2);
 // SORT
 // REDUCE
 // FOR-EACH
-
-
